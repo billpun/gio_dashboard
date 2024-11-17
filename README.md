@@ -1,11 +1,34 @@
-GIO Marketing Dashboard
+# gio_dashboard
 
-To run in development
-```
-yarn electron:start
+An Electron application with React
+
+## Recommended IDE Setup
+
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+## Project Setup
+
+### Install
+
+```bash
+$ yarn
 ```
 
-To build 
+### Development
+
+```bash
+$ yarn dev
 ```
-yarn electron:package:<platform>
+
+### Build
+
+```bash
+# For windows
+$ yarn build:win
+
+# For macOS
+$ yarn build:mac
+
+# For Linux
+$ yarn build:linux
 ```
